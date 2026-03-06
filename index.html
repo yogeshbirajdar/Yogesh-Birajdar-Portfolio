@@ -394,17 +394,20 @@
             <h3 class="resume-title">Projects</h3>
             <div class="resume-item">
               <h4>House Price Prediction</h4>
-              <p><a href="https://house-price-prediction-model-by-yogeshbirajdar.streamlit.app" target="_blank" class="btn btn-sm btn-outline-primary">🔗 View Project</a></p>
+              <p><a href="https://house-price-and-type-prediction-by-yogeshbirajdar.streamlit.app" target="_blank" class="btn btn-sm btn-outline-primary">🔗 View Project</a></p>
               
-              <p><em>The House Price Prediction project focuses on building a Machine Learning model to estimate property prices based on various housing and socio-economic features. The project includes data preprocessing, feature engineering, model training, and deployment as an interactive web application.<a class="btn btn-link p-0" data-bs-toggle="collapse" href="#project1" role="button">Read More></a></em></p>
+              <p><em>The House Price & Type Prediction project focuses on building a Machine Learning model that predicts the estimated price of a house and also determines the house type based on various property features such as BHK, location, furnishing status, area, and other housing attributes.
+The project includes data preprocessing, model training, and deployment as an interactive web application using Streamlit.<a class="btn btn-link p-0" data-bs-toggle="collapse" href="#project1" role="button">Read More></a></em></p>
               <div class="collapse" id="project1">
                   <ul>
-                    <li>Applied Polynomial Feature Engineering to capture non-linear relationships.</li>
-                    <li>Trained a Lasso Regression model to reduce overfitting using L1 regularization.</li>
-                    <li>Performed data preprocessing and transformation to improve model performance.</li>
-                    <li>Built an interactive web app using Streamlit for real-time predictions.</li>
-                    <li>Deployed the application on Streamlit Cloud using GitHub.</li>
-                    <li>Ensured realistic predictions by handling negative output cases.</li>
+                    <li>Applied data preprocessing and feature encoding to convert categorical housing data into machine-learning-ready format.</li>
+                    <li>Trained a regression model to predict the estimated house price based on housing features.</li>
+                    <li>Built an additional classification model to predict the house type using predicted price and property features.</li>
+                    <li>Implemented Label Encoding for categorical variables like location, furnishing, facing, and BHK.</li>
+                    <li>Created an interactive web application using Streamlit where users can enter house details and get instant predictions.</li>
+                    <li>Integrated Pickle model loading for fast prediction without retraining the model.</li>
+                    <li>Designed a user-friendly UI with custom CSS styling for better user experience.</li>
+                    <li>Deployed the application using GitHub and Streamlit Cloud.</li>
                   </ul>
               </div>
               <ul>
